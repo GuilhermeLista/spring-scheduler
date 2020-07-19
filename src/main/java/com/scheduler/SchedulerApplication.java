@@ -2,7 +2,13 @@ package com.scheduler;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
+/*
+* The notation @EnableScheduling allows you to use scheduling process
+* */
+
+@EnableScheduling
 @SpringBootApplication
 public class SchedulerApplication {
 
