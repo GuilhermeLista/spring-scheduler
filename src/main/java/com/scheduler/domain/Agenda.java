@@ -9,5 +9,5 @@ import java.io.Serializable;
 public class Agenda implements Serializable {
 
     private String name;
-    private String interval;
+    public static Integer cron;
 }

@@ -1,4 +1,4 @@
-package com.scheduler.application;
+package com.scheduler.application.scheduler;
 
 import com.scheduler.application.service.service.AgendaService;
 import org.springframework.beans.factory.annotation.Autowired;
